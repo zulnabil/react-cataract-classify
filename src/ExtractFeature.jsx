@@ -56,7 +56,7 @@ class ExtractFeature extends Component {
   }
 
   saveFeatures() {
-    this.knn.save('features.json')
+    this.knn.save('logits.json')
   }
 
   imgChange() {
